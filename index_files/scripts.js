@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click",()=>{
 	let second = `Второе худи:${document.getElementById("field2").value}`
 	let name = `Имя:${document.getElementById("name").value}`
 	let tel = `Телефон:${document.getElementById("tel").value}`
-	document.getElementById("btn").href = `mailto:modernbiz321@gmail.com?subject=Заказ худи&body=${first}\n${second}\n${name}\n${tel}`
+	document.getElementById("btn").href = `mailto:modernbiz321@gmail.com?subject=Заказ худи&body=${first}%0D%0A${second}%0D%0A${name}%0D%0A${tel}`
 	document.getElementById("btn").click()
 	if(r==1){
 	document.getElementById("btn").href=""
